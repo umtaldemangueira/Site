@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(0, 132, 255);
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+      font-family: "Roboto Slab", serif;
+
+}
+
+.sobre p {
+
+padding-right: 200px;
+padding-left: 200px;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+
+}
+.sobre {
+
+    display: flex;
+    align-items: center;
+}
+.minhafoto{
+
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(222, 228, 228, 0.774);
+    
+}
+
+.imagemconstrucao {
+
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    
+}
+
+footer{
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(126, 212, 238);
+    
+}
